@@ -1,0 +1,7 @@
+#!/bin/sh
+
+chmod +x /usr/bin/install-nvenc
+zenity --info --title="Notice" --text="You must run the installer for NVENC now.\nTo start NVENC installation, run the following:\ninstall-nvenc"
+echo "You must run the installer for NVENC after dismissing this message.
+To start NVENC installation, run the following:
+install-nvenc"

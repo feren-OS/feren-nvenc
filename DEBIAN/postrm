@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zenity --warning --title="Purge Notice" --text="You can't fully remove the NVENC with this package removal, to fully purge it, either reinstall\nferen OS, or try 'sudo apt install --reinstall ffmpeg'."
